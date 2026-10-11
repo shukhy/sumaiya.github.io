@@ -15,12 +15,14 @@
   <!-- ======= Navigation ======= -->
   <header class="nav" id="navbar">
     <div class="container nav__inner">
-      <a href="#home" class="nav__logo">S<span>.</span>A<span>.</span>S</a>
+      <a href="#home" class="nav__logo">SAS<span>.</span></a>
       <nav>
         <ul class="nav__menu" id="navMenu">
           <li><a href="#home" class="nav__link">Home</a></li>
           <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#help" class="nav__link">How I Help</a></li>
           <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#research" class="nav__link">Research</a></li>
           <li><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
@@ -35,19 +37,19 @@
     <div class="hero__bg" aria-hidden="true"></div>
     <div class="container hero__inner">
       <div class="hero__text reveal">
-        <p class="hero__greeting">Hello, I'm</p>
-        <h1 class="hero__name">Sumaiya Akter Shukhy</h1>
+        <p class="hero__pill"><span class="hero__pill-dot"></span> Available for opportunities</p>
+        <h1 class="hero__headline">Turning data into <em>clear insights</em> &amp; decisions.</h1>
         <h2 class="hero__title">
-          <span class="hero__title-static">Data Analyst</span>
-          <span class="hero__title-typed" id="typedText"></span><span class="caret"></span>
+          Data Analyst
+          <span class="hero__typed" id="typedText"></span><span class="caret"></span>
         </h2>
         <p class="hero__blurb">
-          Turning raw data into clear, actionable insight with
-          <strong>Power BI</strong>, <strong>SQL</strong>, <strong>Python</strong> and <strong>DAX</strong> —
-          from healthcare claims to consumer behaviour.
+          I'm Sumaiya Akter Shukhy. I solve business problems — slow reporting, messy
+          spreadsheets, unclear performance — using <strong>Power BI</strong>, <strong>SQL</strong>,
+          <strong>Excel</strong> and <strong>Python</strong>.
         </p>
         <div class="hero__cta">
-          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#projects" class="btn btn--primary">View My Work</a>
           <a href="#contact" class="btn btn--ghost">Get in Touch</a>
         </div>
         <div class="hero__socials">
@@ -65,51 +67,79 @@
 
       <div class="hero__photo reveal">
         <div class="hero__photo-ring">
-          <img src="https://avatars.githubusercontent.com/u/84353537?v=4"
-               alt="Portrait of Sumaiya Akter Shukhy" />
+          <img src="https://avatars.githubusercontent.com/u/84353537?v=4" alt="Portrait of Sumaiya Akter Shukhy" />
         </div>
-        <div class="hero__badge">
-          <span class="hero__badge-dot"></span> Open to opportunities
+        <div class="hero__chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg>
+          Dashboards that decide
         </div>
       </div>
     </div>
-    <a href="#about" class="hero__scroll" aria-label="Scroll down">
-      <span></span>
-    </a>
   </section>
+
+  <!-- ======= Skills marquee ======= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Power BI</span><i></i><span>SQL</span><i></i><span>Excel</span><i></i><span>Python</span><i></i><span>DAX</span><i></i><span>Power Query</span><i></i><span>Data Visualization</span><i></i><span>Machine Learning</span><i></i>
+      <span>Power BI</span><i></i><span>SQL</span><i></i><span>Excel</span><i></i><span>Python</span><i></i><span>DAX</span><i></i><span>Power Query</span><i></i><span>Data Visualization</span><i></i><span>Machine Learning</span><i></i>
+    </div>
+  </div>
 
   <!-- ======= About ======= -->
   <section class="section about" id="about">
+    <div class="container about__grid">
+      <div class="reveal">
+        <p class="section__eyebrow">About me</p>
+        <h2 class="section__title">I turn messy data into decisions people trust.</h2>
+      </div>
+      <div class="about__content reveal">
+        <p>
+          I'm a data analyst who enjoys the full journey of data — cleaning messy datasets,
+          modeling them, and designing dashboards that make insights impossible to miss.
+          My work spans healthcare claims, HR operations, sales analytics and applied
+          machine learning.
+        </p>
+        <p>
+          From interactive Power BI reports with DAX to machine learning models in Python,
+          I focus on one thing: making data easy to understand and act on.
+        </p>
+        <div class="about__skills">
+          <span class="skill">Power BI</span><span class="skill">SQL</span><span class="skill">Python</span>
+          <span class="skill">DAX</span><span class="skill">Excel</span><span class="skill">Power Query</span>
+          <span class="skill">Pandas</span><span class="skill">Scikit-learn</span><span class="skill">Data Visualization</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= How I Help ======= -->
+  <section class="section help" id="help">
     <div class="container">
       <div class="section__head reveal">
-        <p class="section__eyebrow">About Me</p>
-        <h2 class="section__title">Data-driven. Detail-obsessed.</h2>
+        <p class="section__eyebrow">How I help</p>
+        <h2 class="section__title">Problems I've helped solve</h2>
+        <p class="section__sub">Every project starts with a business problem — not a piece of software.</p>
       </div>
-      <div class="about__grid">
-        <div class="about__card reveal">
-          <p>
-            I'm a data analyst who enjoys the full journey of data — cleaning messy
-            datasets, modeling them, and designing dashboards that make insights
-            impossible to miss. My work spans healthcare claims, HR operations,
-            sales analytics and applied machine learning.
-          </p>
-          <p>
-            I build interactive reports in <strong>Power BI</strong> with <strong>DAX</strong>,
-            wrangle data with <strong>SQL</strong> and <strong>Python</strong>, and apply
-            machine learning techniques to predict outcomes such as heart-failure risk
-            and consumer behaviour patterns.
-          </p>
+      <div class="help__grid">
+        <div class="help__card reveal">
+          <h3>"We have data, but no idea what it's telling us."</h3>
+          <p>Sales, claims or HR numbers pile up without clear answers. I turn raw data into clear stories about what's actually happening.</p>
+          <span class="help__out">→ Clearer business decisions</span>
         </div>
-        <div class="about__skills reveal">
-          <span class="skill">Power BI</span>
-          <span class="skill">SQL</span>
-          <span class="skill">Python</span>
-          <span class="skill">DAX</span>
-          <span class="skill">Excel</span>
-          <span class="skill">Pandas</span>
-          <span class="skill">Scikit-learn</span>
-          <span class="skill">Data Visualization</span>
-          <span class="skill">Business Intelligence</span>
+        <div class="help__card reveal">
+          <h3>"This report takes half my week to build."</h3>
+          <p>Rebuilding the same spreadsheet by hand every week wastes hours. I build workflows and dashboards that update themselves.</p>
+          <span class="help__out">→ Hours of manual work back</span>
+        </div>
+        <div class="help__card reveal">
+          <h3>"We can't see our numbers until it's too late."</h3>
+          <p>Waiting until month-end to spot a problem is expensive. I put the metrics that matter in one place, ready before the meeting.</p>
+          <span class="help__out">→ Faster decision making</span>
+        </div>
+        <div class="help__card reveal">
+          <h3>"Our data lives in five different places."</h3>
+          <p>Spreadsheets, databases and exports that don't match add up to numbers nobody trusts. I clean and combine them into one source of truth.</p>
+          <span class="help__out">→ Data you can actually trust</span>
         </div>
       </div>
     </div>
@@ -119,108 +149,182 @@
   <section class="section projects" id="projects">
     <div class="container">
       <div class="section__head reveal">
-        <p class="section__eyebrow">Portfolio</p>
-        <h2 class="section__title">Featured Projects</h2>
+        <p class="section__eyebrow">My work</p>
+        <h2 class="section__title">Selected projects</h2>
+        <p class="section__sub">Real-world analytics, dashboards and machine learning — click any card to preview.</p>
       </div>
 
-      <div class="projects__grid">
+      <div class="projects__filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="powerbi">Power BI</button>
+        <button class="filter-btn" data-filter="excel">Excel</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+      </div>
 
-        <article class="project reveal">
-          <div class="project__icon project__icon--teal">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg>
+      <div class="projects__grid" id="projectsGrid">
+
+        <!-- Healthcare Claims: 4-page dashboard — slider/video modal -->
+        <article class="project reveal" data-category="powerbi"
+          data-title="Healthcare Claims Analytics Dashboard"
+          data-label="POWER BI · 4-PAGE REPORT"
+          data-imgs="images/healthcare-claims-1.png,images/healthcare-claims-2.png,images/healthcare-claims-3.png,images/healthcare-claims-4.png"
+          data-video="images/healthcare-claims.mp4"
+          data-link="https://github.com/shukhy/Healthcare-Claims-Analytics-Dashboard-Power-BI"
+          data-desc="A 4-page Power BI report analyzing healthcare claims — Executive overview, Providers, Members and Trends. Tracks total billed vs paid, approval efficiency, fraud cases and top hospitals. Click the arrows inside the preview to flip through all pages, or watch the full walkthrough video."
+          data-tags="Power BI,DAX,Healthcare,4 Pages">
+          <div class="project__media" role="button" tabindex="0" aria-label="Preview Healthcare Claims Analytics Dashboard">
+            <img src="images/healthcare-claims-1.png" alt="Healthcare Claims Analytics Dashboard preview" loading="lazy" />
+            <span class="project__play">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </span>
           </div>
-          <h3 class="project__title">Healthcare Claims Analytics Dashboard</h3>
-          <p class="project__desc">
-            Power BI dashboard analyzing healthcare claims — tracking costs, providers,
-            claim statuses and trends to support operational and financial decisions.
-          </p>
-          <div class="project__tags"><span>Power BI</span><span>DAX</span><span>Healthcare</span></div>
-          <a class="project__link" href="https://github.com/shukhy/Healthcare-Claims-Analytics-Dashboard-Power-BI" target="_blank" rel="noopener">
-            View Repository
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <div class="project__body">
+            <p class="project__label">Power BI · 4-Page Report</p>
+            <h3 class="project__title">Healthcare Claims Analytics Dashboard</h3>
+            <p class="project__desc">4-page Power BI report tracking claims, approvals, fraud cases and hospital performance.</p>
+            <div class="project__tags"><span>Power BI</span><span>DAX</span><span>4 Pages</span></div>
+            <div class="project__actions">
+              <button class="btn btn--primary btn--sm project__view">▶ Preview Pages</button>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/shukhy/Healthcare-Claims-Analytics-Dashboard-Power-BI" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
         </article>
 
-        <article class="project reveal">
-          <div class="project__icon project__icon--violet">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 20c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.5 14.6c2.7.2 4.4 1.9 5 4.4"/></svg>
+        <!-- HR Analytics -->
+        <article class="project reveal" data-category="excel"
+          data-title="HR Analytics Dashboard"
+          data-label="EXCEL"
+          data-imgs="images/hr-analytics.png"
+          data-link="https://github.com/shukhy/HR-Analytics-Dashboard-Excel"
+          data-desc="Excel-based HR analytics examining attrition, headcount, salary spread, satisfaction and workforce demographics to surface retention risks and HR KPIs."
+          data-tags="Excel,Pivot Tables,HR KPIs">
+          <div class="project__media" role="button" tabindex="0" aria-label="Preview HR Analytics Dashboard">
+            <img src="images/hr-analytics.png" alt="HR Analytics Dashboard preview" loading="lazy" />
+            <span class="project__zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg>
+            </span>
           </div>
-          <h3 class="project__title">HR Analytics Dashboard</h3>
-          <p class="project__desc">
-            Excel-based HR analytics examining attrition, headcount, satisfaction and
-            workforce demographics to surface retention risks and HR KPIs.
-          </p>
-          <div class="project__tags"><span>Excel</span><span>Pivot Tables</span><span>HR KPIs</span></div>
-          <a class="project__link" href="https://github.com/shukhy/HR-Analytics-Dashboard-Excel" target="_blank" rel="noopener">
-            View Repository
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <div class="project__body">
+            <p class="project__label">Excel</p>
+            <h3 class="project__title">HR Analytics Dashboard</h3>
+            <p class="project__desc">Excel-based HR analytics examining attrition, headcount, salary and satisfaction.</p>
+            <div class="project__tags"><span>Excel</span><span>Pivot Tables</span><span>HR KPIs</span></div>
+            <div class="project__actions">
+              <button class="btn btn--primary btn--sm project__view">View Project</button>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/shukhy/HR-Analytics-Dashboard-Excel" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
         </article>
 
-        <article class="project reveal">
-          <div class="project__icon project__icon--amber">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg>
+        <!-- Beverage Sales -->
+        <article class="project reveal" data-category="powerbi"
+          data-title="Beverage Sales Analysis Dashboard"
+          data-label="POWER BI"
+          data-imgs="images/beverage-sales.png"
+          data-link="https://github.com/shukhy/Beverage-Sales-Analysis-Dashboard-PowerBI"
+          data-desc="Interactive Power BI report on beverage sales performance — 16M units sold, revenue and profit by brand, division and district, with monthly trends for commercial decision-making."
+          data-tags="Power BI,Sales,Reporting">
+          <div class="project__media" role="button" tabindex="0" aria-label="Preview Beverage Sales Analysis Dashboard">
+            <img src="images/beverage-sales.png" alt="Beverage Sales Analysis Dashboard preview" loading="lazy" />
+            <span class="project__zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg>
+            </span>
           </div>
-          <h3 class="project__title">Beverage Sales Analysis Dashboard</h3>
-          <p class="project__desc">
-            Interactive Power BI report on beverage sales performance — regional trends,
-            product mix and time-series patterns for commercial decision-making.
-          </p>
-          <div class="project__tags"><span>Power BI</span><span>Sales</span><span>Reporting</span></div>
-          <a class="project__link" href="https://github.com/shukhy/Beverage-Sales-Analysis-Dashboard-PowerBI" target="_blank" rel="noopener">
-            View Repository
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <div class="project__body">
+            <p class="project__label">Power BI</p>
+            <h3 class="project__title">Beverage Sales Analysis Dashboard</h3>
+            <p class="project__desc">Interactive report on sales performance — revenue, profit by brand, division and district.</p>
+            <div class="project__tags"><span>Power BI</span><span>Sales</span><span>Reporting</span></div>
+            <div class="project__actions">
+              <button class="btn btn--primary btn--sm project__view">View Project</button>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/shukhy/Beverage-Sales-Analysis-Dashboard-PowerBI" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
         </article>
 
-        <article class="project reveal">
-          <div class="project__icon project__icon--green">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+        <!-- Heart Failure Prediction -->
+        <article class="project reveal" data-category="python"
+          data-title="Heart Failure Prediction"
+          data-label="PYTHON · MACHINE LEARNING"
+          data-imgs="images/heart-failure.png"
+          data-link="https://github.com/shukhy/Python-Machine-Learning/blob/main/Heart_failure_prediction.ipynb"
+          data-desc="Machine learning notebook predicting heart-failure risk from clinical features — data preprocessing, model training and evaluation in Python."
+          data-tags="Python,Scikit-learn,ML">
+          <div class="project__media" role="button" tabindex="0" aria-label="Preview Heart Failure Prediction notebook">
+            <img src="images/heart-failure.png" alt="Heart Failure Prediction notebook preview" loading="lazy" />
+            <span class="project__zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg>
+            </span>
           </div>
-          <h3 class="project__title">Research Paper Publication</h3>
-          <p class="project__desc">
-            Published research work — literature, methodology and findings documented
-            and shared as an open repository.
-          </p>
-          <div class="project__tags"><span>Research</span><span>Writing</span><span>Analysis</span></div>
-          <a class="project__link" href="https://github.com/shukhy/Research-paper" target="_blank" rel="noopener">
-            View Repository
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <div class="project__body">
+            <p class="project__label">Python · ML</p>
+            <h3 class="project__title">Heart Failure Prediction</h3>
+            <p class="project__desc">ML notebook predicting heart-failure risk — preprocessing, training, evaluation.</p>
+            <div class="project__tags"><span>Python</span><span>Scikit-learn</span><span>ML</span></div>
+            <div class="project__actions">
+              <button class="btn btn--primary btn--sm project__view">View Project</button>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/shukhy/Python-Machine-Learning/blob/main/Heart_failure_prediction.ipynb" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
         </article>
 
-        <article class="project reveal">
-          <div class="project__icon project__icon--rose">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.6-9.5-9C.8 8.6 2.6 5 6 5c2 0 3.4 1.1 4 2.2L12 9l2-1.8C14.6 6.1 16 5 18 5c3.4 0 5.2 3.6 3.5 7-2.5 4.4-9.5 9-9.5 9z"/></svg>
+        <!-- Amazon Consumer Behaviour -->
+        <article class="project reveal" data-category="python"
+          data-title="Amazon Consumer Behaviour"
+          data-label="PYTHON · MACHINE LEARNING"
+          data-imgs="images/amazon-consumer.png"
+          data-link="https://github.com/shukhy/Python-Machine-Learning/blob/main/Amazon_consumer_Behaviour_ML.ipynb"
+          data-desc="ML analysis of Amazon consumer behaviour — exploring purchase patterns and building models to understand and predict shopping actions."
+          data-tags="Python,EDA,Machine Learning">
+          <div class="project__media" role="button" tabindex="0" aria-label="Preview Amazon Consumer Behaviour notebook">
+            <img src="images/amazon-consumer.png" alt="Amazon Consumer Behaviour notebook preview" loading="lazy" />
+            <span class="project__zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg>
+            </span>
           </div>
-          <h3 class="project__title">Heart Failure Prediction</h3>
-          <p class="project__desc">
-            Machine learning notebook predicting heart-failure risk from clinical
-            features — data preprocessing, model training and evaluation in Python.
-          </p>
-          <div class="project__tags"><span>Python</span><span>Scikit-learn</span><span>ML</span></div>
-          <a class="project__link" href="https://github.com/shukhy/Python-Machine-Learning/blob/main/Heart_failure_prediction.ipynb" target="_blank" rel="noopener">
-            View Notebook
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </article>
-
-        <article class="project reveal">
-          <div class="project__icon project__icon--blue">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.6"/><circle cx="18" cy="20" r="1.6"/><path d="M2 3h3l2.6 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+          <div class="project__body">
+            <p class="project__label">Python · ML</p>
+            <h3 class="project__title">Amazon Consumer Behaviour</h3>
+            <p class="project__desc">ML analysis of Amazon purchase patterns — predicting shopping behaviour.</p>
+            <div class="project__tags"><span>Python</span><span>EDA</span><span>Machine Learning</span></div>
+            <div class="project__actions">
+              <button class="btn btn--primary btn--sm project__view">View Project</button>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/shukhy/Python-Machine-Learning/blob/main/Amazon_consumer_Behaviour_ML.ipynb" target="_blank" rel="noopener">GitHub</a>
+            </div>
           </div>
-          <h3 class="project__title">Amazon Consumer Behaviour</h3>
-          <p class="project__desc">
-            ML analysis of Amazon consumer behaviour — exploring purchase patterns and
-            building models to understand and predict shopping actions.
-          </p>
-          <div class="project__tags"><span>Python</span><span>EDA</span><span>Machine Learning</span></div>
-          <a class="project__link" href="https://github.com/shukhy/Python-Machine-Learning/blob/main/Amazon_consumer_Behaviour_ML.ipynb" target="_blank" rel="noopener">
-            View Notebook
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
         </article>
+      </div>
+    </div>
+  </section>
 
+  <!-- ======= Research Paper ======= -->
+  <section class="section research" id="research">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__eyebrow">Research</p>
+        <h2 class="section__title">Published research paper</h2>
+      </div>
+      <div class="research__card reveal">
+        <div class="research__media" role="button" tabindex="0" id="researchMedia" aria-label="Preview research paper">
+          <img src="images/research-paper.png" alt="Research paper first page" loading="lazy" />
+          <span class="project__zoom">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg>
+          </span>
+        </div>
+        <div class="research__body">
+          <p class="project__label">International Journal of Intelligent Systems and Applications in Engineering (IJISAE)</p>
+          <h3 class="research__title">Research Paper Publication</h3>
+          <p class="research__desc">
+            Peer-reviewed research published in IJISAE — methodology, experiments and
+            findings documented and shared openly. The full paper is available to read
+            on the journal's website.
+          </p>
+          <div class="project__tags"><span>Research</span><span>Peer-Reviewed</span><span>IJISAE</span></div>
+          <div class="project__actions">
+            <a class="btn btn--primary btn--sm" href="https://ijisae.org/index.php/IJISAE/article/view/6860" target="_blank" rel="noopener">Read the Paper →</a>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/shukhy/Research-paper" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -228,60 +332,33 @@
   <!-- ======= Contact ======= -->
   <section class="section contact" id="contact">
     <div class="container">
-      <div class="section__head reveal">
-        <p class="section__eyebrow">Contact</p>
-        <h2 class="section__title">Let's work together</h2>
+      <div class="contact__cta reveal">
+        <p class="section__eyebrow">Let's work together</p>
+        <h2 class="contact__headline">Have a data problem to solve?</h2>
+        <p class="contact__sub">Let's turn your data into clear insights, useful dashboards and reliable reports.</p>
+        <div class="contact__cta-btns">
+          <a class="btn btn--primary" href="mailto:shukhy763a@gmail.com">Email Me</a>
+          <a class="btn btn--ghost" href="tel:+8801719154763">Call: 01719154763</a>
+        </div>
       </div>
 
-      <div class="contact__grid">
-        <div class="contact__info reveal">
-          <a class="contact__item" href="mailto:shukhy763a@gmail.com">
-            <div class="contact__icon">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.24-7.2 4.5a1 1 0 0 1-1.06 0L4 8.24V6.4l8 5 8-5v1.84z"/></svg>
-            </div>
-            <div>
-              <h4>Email</h4>
-              <p>shukhy763a@gmail.com</p>
-            </div>
-          </a>
-          <a class="contact__item" href="tel:+8801719154763">
-            <div class="contact__icon">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg>
-            </div>
-            <div>
-              <h4>Phone</h4>
-              <p>01719154763</p>
-            </div>
-          </a>
-          <div class="contact__item contact__item--static">
-            <div class="contact__icon">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.35 11.8a1 1 0 0 0 1.3 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
-            </div>
-            <div>
-              <h4>Location</h4>
-              <p>Bangladesh</p>
-            </div>
-          </div>
-        </div>
-
-        <form class="contact__form reveal" id="contactForm" novalidate>
-          <div class="form__row">
-            <div class="form__group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" required />
-            </div>
-            <div class="form__group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="you@example.com" required />
-            </div>
+      <form class="contact__form reveal" id="contactForm" novalidate>
+        <div class="form__row">
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
           </div>
           <div class="form__group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
           </div>
-          <button type="submit" class="btn btn--primary form__submit">Send Message</button>
-        </form>
-      </div>
+        </div>
+        <div class="form__group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary form__submit">Send Message</button>
+      </form>
     </div>
   </section>
 
@@ -290,12 +367,42 @@
     <div class="container footer__inner">
       <p>© <span id="year"></span> Sumaiya Akter Shukhy. All rights reserved.</p>
       <div class="footer__socials">
-        <a href="https://github.com/shukhy" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
-        <a href="https://www.linkedin.com/in/sumaiya-akter-shukhy/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
-        <a href="mailto:shukhy763a@gmail.com" aria-label="Email">Email</a>
+        <a href="https://github.com/shukhy" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/sumaiya-akter-shukhy/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:shukhy763a@gmail.com">Email</a>
       </div>
     </div>
   </footer>
+
+  <!-- ======= Project Modal (image slider + video) ======= -->
+  <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__card">
+      <button class="modal__close" data-close aria-label="Close preview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal__media">
+        <video id="modalVideo" controls playsinline style="display:none"></video>
+        <img id="modalImg" src="" alt="Project preview" />
+        <button class="modal__nav modal__nav--prev" id="modalPrev" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="modal__nav modal__nav--next" id="modalNext" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <div class="modal__dots" id="modalDots"></div>
+      </div>
+      <div class="modal__body">
+        <p class="project__label" id="modalLabel"></p>
+        <h3 class="modal__title" id="modalTitle"></h3>
+        <p class="modal__desc" id="modalDesc"></p>
+        <div class="project__tags" id="modalTags"></div>
+        <div class="modal__actions">
+          <a class="btn btn--primary btn--sm" id="modalLink" href="#" target="_blank" rel="noopener">View GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
